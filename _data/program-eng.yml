@@ -1,0 +1,29 @@
+- time: '8:30'
+  text: <strong>Registration</strong>           
+
+- time: '10:00'
+  text: <strong>Welcome speech by organizers</strong>
+
+- time: '10:30'
+  text: <strong>Keynote. Ashley Williams</strong>
+
+- time: 'TBA'
+  text: 'TBA'
+
+- time: '13:00'
+  text: <strong>Lunch</strong>
+
+- time: 'TBA'
+  text: 'TBA'
+
+- time: '15:00'
+  text: <strong>Pierre Krieger</strong>
+
+- time: '16:00'
+  text: <strong>Coffee Break</strong>
+
+- time: 'TBA'
+  text: 'TBA'
+
+- time: '19:00'
+  text: <strong>Keynote</strong>

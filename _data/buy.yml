@@ -1,0 +1,17 @@
+- class: early-bird 
+  name: Еarly bird
+  price: 3000
+  text: '*25 билетов'
+
+
+- class: normal
+  name: Обычный
+  price: 7500
+  text: 
+
+
+- class: wow
+  name: Энтузиаст
+  price: 10000
+  text: '*Покупая этот билет, вы<br> спонсируете бесплатный билет<br>  для тех, кто не может себе его<br>  позволить'
+

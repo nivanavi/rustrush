@@ -1,0 +1,36 @@
+---
+layout: default
+title: Купить билет - RustRush 2018
+---
+
+<div class='container-fluid'>
+  <div class='row centered'>
+    <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+    <div class='col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 main'>
+
+
+		<div class='row no-gutters bought'>
+
+			<span id='title-bought'>купить билет</span>
+
+
+			{% for buy in site.data.buy %}
+
+<div class='col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 {{ buy.class }}'>
+
+	<h1 id='buy'>{{ buy.name }}</h1>
+
+	<h1 id='price'>{{ buy.price }}</h1><span class="rur">a</span>
+		<p>{{ buy.text }}</p>
+
+	<a href="pay-page?ticketType=p{{ buy.price }}"><button class='buy-button'>купить</button></a>
+
+</div>
+
+			{% endfor %}
+
+
+</div>
+</div>
+</div>
+</div>

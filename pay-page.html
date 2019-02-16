@@ -1,0 +1,41 @@
+---
+layout: default
+title: Оплатить - RustRush 2018
+---
+
+
+<div class='container-fluid'>
+  <div class='row centered'>
+    <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+    <div class='col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 main'>
+
+<div class='pay'>
+
+<style>.tinkoffPayRow{display:block;margin:1%;width:160px;}</style>
+<script src="https://securepay.tinkoff.ru/html/payForm/js/tinkoff_v2.js"></script>
+<form name="TinkoffPayForm" onsubmit="pay(this); return false;">
+	<input class="tinkoffPayRow" type="hidden" name="terminalkey" value="TinkoffBankTest">
+	<input class="tinkoffPayRow" type="hidden" name="frame" value="true">
+	<input class="tinkoffPayRow" type="hidden" name="language">
+    <input id='priceCount' class="tinkoffPayRow" type="text" placeholder="Сумма заказа" name="amount" disabled>
+    <input class="tinkoffPayRow" type="hidden" placeholder="Номер заказа" name="order">
+    <input class="tinkoffPayRow" type="hidden" placeholder="Описание заказа" name="description">
+    <input class="tinkoffPayRow" type="text" placeholder="ФИО плательщика *" name="name" required>
+    <input class="tinkoffPayRow" type="email" placeholder="E-mail" name="email">
+    <input class="tinkoffPayRow" type="text" placeholder="Контактный телефон" name="phone">
+    <input class="tinkoffPayRow b" type="submit" value="Оплатить">
+</form>
+
+</div>
+
+<div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 place-page place-page1'>
+
+<p>Если вы хотите заплатить по выставленному счёту, напишите нам на tickets@rustrush.ru.</p>
+
+</div>   
+
+</div>
+</div>
+</div>
+
+<script src="/scss/autoPrice.js" type="text/javascript"></script>

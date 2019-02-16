@@ -1,0 +1,62 @@
+---
+layout: forBlog
+title: Блог - RustRush 2018
+---
+
+
+{% for post in site.categories.ru %}
+
+<div class='container-fluid'>
+
+<div class='row'>
+    <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+    <div class='col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 '>
+    	<div id='blog-date'>{{ post.date| date: "%d.%m.%Y" }}</div>
+    	<div id='nav-blog'>
+            <div class="share">
+    		<a href="https://twitter.com/share?text={{ post.title }} {{ post.excerpt | remove: '<p>' | remove: '</p>' }}&url={{ site.url }}{{ post.url }}&via={{ site.twitter_username }}"><img src="/scss/img/twit.png"> </a></div>
+            <div class="share">
+    		<a href="https://www.facebook.com/sharer/sharer.php?u={{ post.url-share }}"><img src="/scss/img/face.png"> </a></div>
+
+            <div class="share">
+    		<a href="https://plus.google.com/share?text={{ post.title }} {{ post.excerpt | remove: '<p>' | remove: '</p>' }}&via={{ site.twitter_username }}&url={{ site.url }}{{ post.url }}"><img src="/scss/img/g+.png"> </a></div>
+            <div class="share">
+    		<a href="http://www.linkedin.com/countserv/count/share?text={{ post.title }} {{ post.excerpt | remove: '<p>' | remove: '</p>' }}&url={{ site.url }}{{ post.url }}&via={{ site.twitter_username }}"><img src="/scss/img/in.png"> </a></div>
+
+    	</div>
+    </div>
+    <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+</div>
+
+
+<div class='row'>
+	<div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+    <div class='col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 main'>
+    	
+		<h1 id='title-blog'>{{ post.title }}</h1>
+
+		<div id='blog-content'> {{ post.excerpt }}
+        {% if post.excerpt != post.content %}
+         <a href="{{ post.url }}">продолжить чтение</a>
+        {% endif %}
+</div>
+
+    </div>
+    <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+</div>
+
+
+</div>
+
+{% endfor %}
+
+
+
+
+
+
+
+
+
+
+

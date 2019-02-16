@@ -1,0 +1,28 @@
+---
+layout: default
+title: Q&A - RustRush 2018
+---
+
+
+<div class='container-fluid'>
+  <div class='row centered'>
+    <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+    <div class='col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 main'>
+
+<div class='QA-page'>
+
+<h1>Q&A</h1>
+
+{% for qa in site.data.qa %}
+
+<div class='qa'>
+	<span>{{ qa.ask }}</span>
+	<p>{{ qa.answer }}</p>
+</div>
+
+{% endfor %}
+
+</div>
+</div>
+</div>
+</div>

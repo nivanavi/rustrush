@@ -1,0 +1,16 @@
+- name: Михаил Панков
+  do: Никто не знает чем он занимается
+  img: scss/img/player1.png
+
+- name: Евгения Панкова
+  do: Главная по брендированию крабов
+  img: scss/img/player2.png
+
+- name: Леонид Кальнеус
+  do: Спец по конференциям
+  img: scss/img/player3.png
+
+- name: Никита Баксаляр
+  do: Человек - программный комитет
+  img: scss/img/player4.png
+

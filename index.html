@@ -1,0 +1,301 @@
+---
+layout: default-eng
+title: Main - RustRush 2018
+---
+
+
+
+
+<div class='container-fluid'>
+  <div class='row centered'>
+    <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+    <div class='col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 main'>
+
+      <div class='about'>
+        <h1><a href="/about-eng.html">about</a></h1>
+
+        <p>Moscow, December, 8</p>
+        <p>
+          Rust developer conference, with talks on Web, blockchain, high performance and systems programming
+        </p>
+
+        <p>
+          Best speakers and welcoming atmosphere for everyone
+        </p>
+
+        <a href="/buy-eng.html"><button><h1>buy a ticket</h1></button></a>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+<div class='row centered no-gutters'>
+          <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+      <div class='col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 main'>
+
+        <div id="forSpeakers">
+              <h1><a href="/speakers-eng.html">speakers</a></h1>
+  
+
+            <div id="carousel1" class="carousel slide">
+                <!-- Индикаторы -->
+                <ol  class="carousel-indicators">
+                  <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel1" data-slide-to="1"></li>
+                  <li data-target="#carousel1" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    {% for carus-speak-eng in site.data.carus-speak-eng %}
+                    <div class='col-5 col-sm-5 col-md-2 col-lg-2 col-xl-2 pos-speak'>
+                    <img class="img-fluid pip" src="{{ carus-speak-eng.img }}"><div id='corusel'><span><strong>{{ carus-speak-eng.name }}</strong><br>{{ carus-speak-eng.do }}</span></div>
+                  </div>
+                    {% endfor %}
+                 </div> 
+        </div>
+        <a href="/program-eng.html"><button><h1>program</h1></button></a>
+    
+
+  </div>
+  </div>
+  </div>
+  </div>
+  
+
+
+<div class='row centered no-gutters'>
+          <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+      <div class='col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 main'>
+
+        <div id='forTeam'>
+              <p><a href='/team-eng.html'>team</a></p>
+  
+
+            <div id="carousel2" class="carousel slide">
+                <!-- Индикаторы -->
+                <ol  class="carousel-indicators">
+                  <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel2" data-slide-to="1"></li>
+                  <li data-target="#carousel2" data-slide-to="2"></li>
+                </ol>
+
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    {% for carus-team-eng in site.data.carus-team-eng %}
+                    <div class='col-5 col-sm-5 col-md-2 col-lg-2 col-xl-2 pos-team'>
+                    <img class="img-fluid pip" src="{{ carus-team-eng.img }}"><div id='corusel'><span><strong>{{ carus-team-eng.name }}</strong><br>{{ carus-team-eng.do }}</span></div>
+                  </div>
+                    {% endfor %}
+                 </div>  
+      <!-- код для вставки еще одной страницы карусели
+                  <div class="carousel-item">
+                    {% for carus-team2-eng in site.data.carus-team2-eng %}
+                    <div class='col-5 col-sm-5 col-md-2 col-lg-2 col-xl-2 pos-team'>
+                    <img class="img-fluid pip" src="{{ carus-team2-eng.img }}"><div id='corusel'><span><strong>{{ carus-team2-eng.name }}</strong><br>{{ carus-team2-eng.do }}</span></div>
+                  </div>
+                    {% endfor %}
+                 </div>  
+   
+       код для вставки еще одной страницы карусели -->
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+
+<div class='row centered no-gutters'>
+    <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+    <div class='col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 main'>
+
+      <div class='place'>
+        <h1><a href="/place-eng.html?attribution-eng">place</a></h1> 
+        <div class='align-place'>
+        <div class='row'>
+
+          <div class='col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6'>
+          <div class='n'><img src="scss/img/place1.png"></div>
+          </div>
+
+          <div class='col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6'>
+          <div class='n'><img src="scss/img/place2.png"></div>
+
+          </div>
+        </div>
+
+          <div class='moskow'><p><img src="scss/img/dot.png"> The biggest city of Russia and Europe</p></div>
+          <div class='moskow-city'><p><img src="scss/img/dot.png">Modern Conference Hall at Business Hotel Novotel in Moscow International Business Center</p></div>
+
+
+      </div>
+        </div>
+      </div>
+
+      <div class='mobPlace'>
+    <h1><a href="/place-eng.html?attribution-eng">place</a></h1>
+
+   <div id="carousel3" class="carousel slide">
+                <!-- Индикаторы -->
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+
+                    <div class='col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 pos-team '>
+                    <img class="img-fluid" src="scss/img/place1.png">
+                  </div>
+                 </div>  
+
+                  <div class="carousel-item">
+                    <div class='col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 pos-team'>
+                    <img class="img-fluid" src="scss/img/place2.png">
+                 </div>  
+          </div>      
+  </div> 
+       <ol  class="carousel-indicators ind-place">
+                  <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel3" data-slide-to="1"></li>
+                </ol>
+
+                  <div class='moskow'><img src="scss/img/dot.png"><span> The biggest city of Russia and Europe</span></div>
+          <div class='moskow-city'><img src="scss/img/dot.png"><span>Modern Conference Hall at Business Hotel Novotel in Moscow International Business Center</span></div>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class='row centered no-gutters'>
+    <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+    <div class='col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 main'>
+
+<div class='sponsor'>
+  <p>sponsors</p>
+
+<!--
+    <div class='general'>
+      <div class="row">
+      <div class='col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 p'>
+        <h1>general</h1>
+      </div>
+      <div class='col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 s'>
+        {% for sponsor-general in site.data.sponsor-general %}
+          <img src="{{ sponsor-general.img }}">
+          {% endfor %}
+      </div>
+    </div>
+</div>
+
+    <div class='gold'>
+      <div class="row">
+      <div class='col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 p'>
+        <h1>gold</h1>
+      </div>
+      <div class='col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 s'>
+        {% for sponsor-gold in site.data.sponsor-gold %}
+          <img src="{{ sponsor-gold.img }}">
+          {% endfor %}
+      </div>
+    </div>
+    </div>
+-->
+
+    <div class='silver'>
+       <div class="row">
+      <!--
+      <div class='col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 p'>
+        <h1>silver</h1>
+      </div>
+      -->
+      <div class='col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9 s'>
+        {% for sponsor-silver in site.data.sponsor-silver %}
+          <img src="{{ sponsor-silver.img }}">
+          {% endfor %}
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- спонсоры мобайл -->
+<div class='sponsor sponsor-mob'>
+  <p>sponsors</p>
+<div class="row">
+  <!--
+<div class='col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3'>
+   {% for sponsor-general in site.data.sponsor-general %}
+          <img src="{{ sponsor-general.img }}">
+          {% endfor %}
+</div>
+<div class='col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3'><h1>general</h1></div>
+
+{% for sponsor-gold in site.data.sponsor-gold %}
+<div class='col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3'>
+          <img src="{{ sponsor-gold.img }}">
+</div>
+{% endfor %}
+<div class='col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3'><h1>gold</h1></div>
+-->
+
+{% for sponsor-silver in site.data.sponsor-silver %}
+<div class='col-4 col-sm-4 col-md-3 col-lg-3 col-xl-3'>
+          <img src="{{ sponsor-silver.img }}">
+</div>
+{% endfor %}
+<!--<div class='col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3'><h1>silver</h1></div>-->
+
+</div>
+</div>
+</div>
+</div>
+
+
+<div class='container-fluid'>
+  <div class='row justify-content-center'>
+
+    <div class='col-10 col-sm-10 col-md-7 col-lg-3 col-xl-3 main' id='sub-margin'>
+
+        <div id="mc_embed_signup" class='subscribe'>
+            <h1>subscribe</h1>
+            <form action="https://rustrush.us18.list-manage.com/subscribe/post?u=e387a2b04fa24176bdc45cd14&amp;id=4c18970b6a" method="post"
+                id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-MAIL" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                        <input type="text" name="b_e387a2b04fa24176bdc45cd14_4c18970b6a" tabindex="-1" value="">
+                    </div>
+                    <div class="clear">
+                        <input type="submit" value="send" name="subscribe" id="mc-embedded-subscribe" class="button">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+      </div>
+
+  <div class='col-0 col-sm-0 col-md-0 col-lg-2 col-xl-2'></div>
+
+    <div class='col-10 col-sm-10 col-md-7 col-lg-3 col-xl-3 main'>
+      <div class="contact">
+        <h1>contacts</h1>
+        <p>E-mail: <a href='#'>sponsor@rustrush.ru</a></p>
+        <p>Phone: +7 925 889-03-46</p>
+        <p>Telegram: +7 925 889-03-46</p>
+        <p>Sole Proprietor Kalneus Leonid Evgenevich</p>
+      </div>
+    </div>
+  
+  
+  </div>
+</div>
+
+
+
+</div>

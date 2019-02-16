@@ -1,0 +1,36 @@
+---
+layout: forBlog-eng
+---
+
+
+<div class='container-fluid'>
+
+<div class='row'>
+    <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+    <div class='col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 '>
+        <div id='blog-date'>{{ page.date| date: "%m.%d.%Y" }}</div>
+        <div id='nav-blog'>
+           <a href="https://twitter.com/share?url={{ post.url-share }}&text={{ page.title }}"><img src="/scss/img/twit.png"> </a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url-share }}"><img src="/scss/img/face.png"> </a>
+            <a href="https://plus.google.com/share?url={{ page.url-share }}"><img src="/scss/img/g+.png"> </a>
+            <a href="http://www.linkedin.com/countserv/count/share?url={{ page.url-share }}"><img src="/scss/img/in.png"> </a>
+        </div>
+    </div>
+    <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+</div>
+
+
+<div class='row'>
+    <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+    <div class='col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 main'>
+        
+        <h1 id='title-blog'>{{ page.title }}</h1>
+
+        <div id='blog-content'> <p>{{ content }}</p></div>
+
+    </div>
+    <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+</div>
+
+
+</div>

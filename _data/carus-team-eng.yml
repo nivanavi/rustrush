@@ -1,0 +1,15 @@
+- name: Michael Pankov
+  do: Nobody knows <br> what does he do
+  img: scss/img/player1.png
+
+- name: Jane Pankova
+  do: Chief Crab <br> Branding Officer
+  img: scss/img/player2.png
+
+- name: Leonid Kalneus
+  do: Conference Specialist
+  img: scss/img/player3.png
+
+- name: Nikita Baksalyar
+  do: One-man Program <br> Committee
+  img: scss/img/player4.png

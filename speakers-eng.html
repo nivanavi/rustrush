@@ -1,0 +1,24 @@
+---
+layout: default-eng
+title: Speakers - RustRush 2018
+---
+
+<div class='container-fluid'>
+  <div class='row centered'>
+    <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+    <div class='col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 main big-team'>
+
+<h1 id='team'>speakers</h1>
+
+<div class='row no-gutters team-page'>
+{% for carus-speak-eng in site.data.carus-speak-eng %}
+<div class='col-5 col-sm-5 col-md-5 col-lg-5 col-xl-6'>
+<div class='p'><img src="{{ carus-speak-eng.img }}"> <span><strong>{{ carus-speak-eng.name }}</strong><br>
+{{ carus-speak-eng.do }}</span></div>
+</div>
+{% endfor %}
+
+</div>
+</div>
+</div>
+</div>

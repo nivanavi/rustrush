@@ -1,0 +1,17 @@
+- class: early-bird 
+  name: Еarly bird
+  price: 3000
+  text: '*25 available'
+
+
+- class: normal
+  name: General Pass
+  price: 7500
+  text: 
+
+
+- class: wow
+  name: Supporter
+  price: 10000
+  text: '*By buying this ticket,<br> you sponsor a free ticket for <br> the people who can’t afford one'
+

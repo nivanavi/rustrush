@@ -1,0 +1,38 @@
+---
+layout: default-eng
+title: Program - RustRush 2018
+---
+
+
+<div class='container-fluid'>
+  <div class='row centered'>
+    <div class='col-0 col-sm-0 col-md-2 col-lg-2 col-xl-2'></div>
+    <div class='col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 main'>
+
+<div class='row centered no-gutters program-page'>
+
+	<div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6'>
+
+<h1 id='zag'>program</h1>
+
+</div>
+
+	<div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6'>
+<a href="/program.pdf"><button><h1>download program</h1></button></a>
+</div>
+
+<span id='date'> December, 8, Saturday </span>
+
+{% for program in site.data.program-eng %}
+
+<div class='col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 prog-line'>
+<span id='time'>{{ program.time }}</span> <p>{{ program.text }}</p>
+</div>
+
+{% endfor %}
+
+
+</div>
+</div>
+</div>
+</div>
